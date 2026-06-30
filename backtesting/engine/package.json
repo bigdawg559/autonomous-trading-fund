@@ -1,0 +1,1 @@
+{"name": "backtesting-engine", "version": "1.0.0", "private": true, "scripts": {"backtest": "ts-node src/backtest.ts", "monte-carlo": "ts-node src/monte-carlo.ts"}, "dependencies": {"csv-parse": "^5.4.1"}, "devDependencies": {"typescript": "^5.0.0", "ts-node": "^10.9.0", "@types/node": "^20.0.0"}}
