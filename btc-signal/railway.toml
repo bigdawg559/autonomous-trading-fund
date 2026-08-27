@@ -1,0 +1,7 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "btc-signal/backend/Dockerfile"
+
+[deploy]
+restartPolicyType = "ALWAYS"
+healthcheckPath = "/health"
